@@ -1,0 +1,10 @@
+---
+import { aboutParagraphs } from '../data/portfolio';
+---
+
+<section class="intro" aria-labelledby="page-title">
+	<h1 id="page-title">Christopher Harley</h1>
+	<div class="intro__copy">
+		{aboutParagraphs.map((paragraph) => <p>{paragraph}</p>)}
+	</div>
+</section>
